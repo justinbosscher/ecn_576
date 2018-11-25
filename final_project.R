@@ -7,7 +7,7 @@
 
 
 # Working Directory ----
-setwd("/home/optimus/Documents/School_and_Training/University_of_Rhode_Island/Academics/Economics_Courses/ECN_576_Econometrics/researchProject") 
+setwd("/home/optimus/Documents/Education/URI/Academics/Economics/ECN_576_Econometrics/researchProject") 
 
 
 # Load libraries
