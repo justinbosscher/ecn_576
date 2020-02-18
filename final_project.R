@@ -185,7 +185,7 @@ print(plot.rVa.sc)
 
 
 # Regression: sSc model ========================================================
-# seasonally adjusted, scaled, NO weather, NO transform, constant =========
+# seasonally adjusted, scaled, NO weather, NO transform, constant ==============
 
 reg.sSc <- lm(miles.sS ~ pop.S + conv_gas + reform_gas + num2_diesel + jobs,
              data=data1)
@@ -310,7 +310,7 @@ print(plot.rVpop.swSc.mod.wf)
 
 
 # Regression: swSc.mod.f model =================================================
-# seasonal adjust, mod fuel, scaled, constant, NO transform =======
+# seasonal adjust, mod fuel, scaled, constant, NO transform ====================
 
 # This model is a modification of the swSc spec. it excludes reform_gas which
 # was not significant at the 99% level
@@ -668,7 +668,7 @@ print(plot.fVa.sSt)
 
 
 # Regression: sStc model  ======================================================
-# seasonally adjusted, NO weather, scaled, transformed, constant =============
+# seasonally adjusted, NO weather, scaled, transformed, constant ===============
 
 reg.sStc <- lm(I(T * miles.sS)~I(T * pop.S) + I(T * conv_gas) + 
                   I(T * reform_gas) + I(T * num2_diesel) + I(T * jobs),
